@@ -34,7 +34,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("TTT")
                 .pattern("TTT")
                 .pattern("TTT")
-                .define('S', ModItems.THORNSTEEL_INGOT.get())
+                .define('T', ModItems.THORNSTEEL_INGOT.get())
                 .unlockedBy(getHasName(ModItems.THORNSTEEL_INGOT.get()), has(ModItems.THORNSTEEL_INGOT.get()))
                 .save(pWriter);
 

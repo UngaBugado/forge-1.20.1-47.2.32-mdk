@@ -36,6 +36,10 @@ public class ModItems
     public static final RegistryObject<Item>  EMBEROOT = ITEMS.register("emberoot",
             () -> new Item(new Item.Properties().food(ModFoods.EMBEROOT)));
 
+    //Geomancer's Staff
+    public static final RegistryObject<Item>  GEOMANCER_STAFF = ITEMS.register("geomancer_staff",
+            () -> new Item(new Item.Properties().stacksTo(1)));
+
 
 
 

@@ -36,6 +36,10 @@ public class ModCreativeModTabs
 
                         pOutput.accept((ModItems.EMBEROOT.get()));
 
+                        pOutput.accept((ModItems.GEOMANCER_STAFF.get()));
+
+
+
                     })
                     .build());
 
