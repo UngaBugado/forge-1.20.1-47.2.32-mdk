@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "elementalrealms:thornsteel_block"
+    }
+  ],
+  "result":
+  {
+    "item": "elementalrealms:thornsteel_ingot",
+    "count": 9
+
+  }
+}

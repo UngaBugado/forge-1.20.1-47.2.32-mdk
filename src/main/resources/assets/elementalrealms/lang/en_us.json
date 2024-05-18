@@ -1,0 +1,18 @@
+{
+  "item.elementalrealms.amberite": "Amberite",
+
+  "item.elementalrealms.thornsteel_ingot": "Thornsteel Ingot",
+  "item.elementalrealms.thornsteel_scrap": "Thornsteel Scrap",
+  "block.elementalrealms.thornsteel_block": "Thornsteel Block",
+  "block.elementalrealms.thornsteel_ore": "Thornsteel Ore",
+
+  "item.elementalrealms.ore_finder": "Ore Finder",
+  "tooltip.elementalrealm.ore_finder": "Finds valuable ores underground!",
+
+  "block.elementalrealms.sound_block": "Sound Block (TEST)",
+
+  "item.elementalrealms.emberoot": "Emberoot",
+
+
+  "creativetab.elemental_tab": "Elemental Realms"
+}

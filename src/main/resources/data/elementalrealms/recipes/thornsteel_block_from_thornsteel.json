@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern":
+  [
+    "###",
+    "###",
+    "###"
+
+  ],
+  "key":
+  {
+    "#":
+    {
+      "item": "elementalrealms:thornsteel_ingot"
+    }
+  },
+
+  "result":
+  {
+    "item":"elementalrealms:thornsteel_block"
+  }
+
+}
