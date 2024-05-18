@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"6": "elementalrealms:item/geomancer_staff"
+		"6": "elementalrealms:item/geomancer_staff_3d"
 	},
 	"elements": [
 		{

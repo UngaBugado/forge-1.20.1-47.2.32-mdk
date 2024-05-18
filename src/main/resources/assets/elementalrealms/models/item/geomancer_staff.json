@@ -12,14 +12,14 @@
       "parent": "elementalrealms:item/geomancer_staff_2d"
     },
 
-    "gui":
+    "ground":
     {
-      "ground": "elementalrealms:item/geomancer_staff_2d"
+      "parent": "elementalrealms:item/geomancer_staff_2d"
     },
 
-    "gui":
+    "fixed":
     {
-      "fixed": "elementalrealms:item/geomancer_staff_2d"
+      "parent": "elementalrealms:item/geomancer_staff_2d"
     }
   }
 }
