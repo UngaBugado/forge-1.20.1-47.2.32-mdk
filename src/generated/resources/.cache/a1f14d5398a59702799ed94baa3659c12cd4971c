@@ -1,0 +1,10 @@
+// 1.20.1	2024-05-18T16:15:30.8537556	Block States: elementalrealms
+3885b71fa61f35ea5c5142ce9518a7fe57f22b4c assets/elementalrealms/blockstates/sound_block.json
+4f5a783eb77bff6cfc685472d6996466862f26e6 assets/elementalrealms/blockstates/thornsteel_block.json
+a45c8ba4293a1d95799972160f73537efdb5de67 assets/elementalrealms/blockstates/thornsteel_ore.json
+9c7d4c44924f7c2d44f8284b0f0973740e752b8c assets/elementalrealms/models/block/sound_block.json
+c205dab8b3a6902a551df1ca1498b407b483d7a9 assets/elementalrealms/models/block/thornsteel_block.json
+9a9765ff5c5df43f20d1df9c9c92c87664680285 assets/elementalrealms/models/block/thornsteel_ore.json
+3843d95d138dcbe97e89af6b45b85482d7fdfdbd assets/elementalrealms/models/item/sound_block.json
+6c9c171a1e10c2aa9a989984a838d5f8396b0a8a assets/elementalrealms/models/item/thornsteel_block.json
+a47f9243f6303cbb56906e9299a4016036cd003d assets/elementalrealms/models/item/thornsteel_ore.json

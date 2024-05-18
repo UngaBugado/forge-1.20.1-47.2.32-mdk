@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "elementalrealms:thornsteel_ingot"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_thornsteel_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "elementalrealms:thornsteel_block"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_thornsteel_block",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "elementalrealms:thornsteel_ingot"
+    ]
+  },
+  "sends_telemetry_event": false
+}

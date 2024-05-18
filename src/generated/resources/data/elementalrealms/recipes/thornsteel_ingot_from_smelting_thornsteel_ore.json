@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.25,
+  "group": "thornsteel",
+  "ingredient": {
+    "item": "elementalrealms:thornsteel_ore"
+  },
+  "result": "elementalrealms:thornsteel_ingot"
+}
