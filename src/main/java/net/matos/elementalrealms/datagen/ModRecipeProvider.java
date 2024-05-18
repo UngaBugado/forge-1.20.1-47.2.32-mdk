@@ -18,7 +18,7 @@ import java.util.function.Consumer;
 public class ModRecipeProvider extends RecipeProvider implements IConditionBuilder {
 
     private static final List<ItemLike> THORNSTEEL_SMELTABLES = List.of(ModItems.THORNSTEEL_SCRAP.get(),
-            ModBlocks.THORNSTEEL_ORE.get()  //, ModBLocks.ANOTHER_ORE.get())
+            ModBlocks.THORNSTEEL_ORE.get());
 
     public ModRecipeProvider(PackOutput pOutput) {
         super(pOutput);
