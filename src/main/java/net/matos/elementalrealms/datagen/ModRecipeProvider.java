@@ -6,6 +6,7 @@ import net.matos.elementalrealms.item.ModItems;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.AbstractCookingRecipe;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.crafting.RecipeSerializer;
@@ -37,6 +38,18 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('T', ModItems.THORNSTEEL_INGOT.get())
                 .unlockedBy(getHasName(ModItems.THORNSTEEL_INGOT.get()), has(ModItems.THORNSTEEL_INGOT.get()))
                 .save(pWriter);
+
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.THORNSTEEL_SWORD.get())
+                .pattern("T")
+                .pattern("T")
+                .pattern("S")
+                .define('T', ModItems.THORNSTEEL_INGOT.get())
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(ModItems.THORNSTEEL_INGOT.get()), has(ModItems.THORNSTEEL_INGOT.get()))
+                .save(pWriter);
+
+
 
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.THORNSTEEL_INGOT.get(), 9)
                 .requires(ModBlocks.THORNSTEEL_BLOCK.get())

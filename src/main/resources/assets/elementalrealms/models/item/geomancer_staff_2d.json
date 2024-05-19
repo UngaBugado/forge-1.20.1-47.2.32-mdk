@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:item/handheld",
-  "texture":
-  {
-    "layer0": "elementalrealms:item/geomancer_staff_2d"
-  }
-
-}

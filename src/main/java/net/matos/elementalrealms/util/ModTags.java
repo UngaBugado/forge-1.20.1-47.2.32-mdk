@@ -13,6 +13,7 @@ public class ModTags
     public static class Blocks
     {
         public static final TagKey<Block> ORE_FINDER_VALUABLES = tag("ore_finder_valuables");
+        public static final TagKey<Block> NEEDS_THORNSTEEL_TOOL = tag("needs_thornsteel_tool");
 
         private static TagKey<Block> tag(String name)
         {

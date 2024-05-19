@@ -29,6 +29,12 @@ public class ModCreativeModTabs
                         pOutput.accept(ModItems.THORNSTEEL_SCRAP.get());
                         pOutput.accept(ModBlocks.THORNSTEEL_BLOCK.get());
                         pOutput.accept(ModBlocks.THORNSTEEL_ORE.get());
+                            //Thornsteel Tools
+                            pOutput.accept(ModItems.THORNSTEEL_SWORD.get());
+                            pOutput.accept(ModItems.THORNSTEEL_PICKAXE.get());
+                            pOutput.accept(ModItems.THORNSTEEL_AXE.get());
+                            pOutput.accept(ModItems.THORNSTEEL_SHOVEL.get());
+                            pOutput.accept(ModItems.THORNSTEEL_HOE.get());
 
                         pOutput.accept(ModItems.ORE_FINDER.get());
 

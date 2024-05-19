@@ -38,5 +38,7 @@ public class ModBlockTagGenerator extends BlockTagsProvider
 
         this.tag(Tags.Blocks.NEEDS_NETHERITE_TOOL);
 
+        this.tag(ModTags.Blocks.NEEDS_THORNSTEEL_TOOL);
+
 ;    }
 }

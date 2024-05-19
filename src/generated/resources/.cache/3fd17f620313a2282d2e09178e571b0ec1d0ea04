@@ -1,4 +1,5 @@
-// 1.20.1	2024-05-18T16:15:30.863749	Tags for minecraft:block mod id elementalrealms
+// 1.20.1	2024-05-19T18:10:03.9626357	Tags for minecraft:block mod id elementalrealms
+35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/elementalrealms/tags/blocks/needs_thornsteel_tool.json
 2fff5217009ecbac0a0da017df56b6b63cc97f53 data/elementalrealms/tags/blocks/ore_finder_valuables.json
 35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/forge/tags/blocks/needs_netherite_tool.json
 15cf399d31f774440fddd8f9f344022585dee051 data/minecraft/tags/blocks/mineable/pickaxe.json

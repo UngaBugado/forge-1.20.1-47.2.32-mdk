@@ -25,6 +25,19 @@ public class ModItemModelProvider extends ItemModelProvider
         simpleItem(ModItems.AMBERITE);
         simpleItem(ModItems.EMBEROOT);
         simpleItem(ModItems.ORE_FINDER);
+
+        handheldItem(ModItems.THORNSTEEL_SWORD);
+        handheldItem(ModItems.THORNSTEEL_PICKAXE);
+        handheldItem(ModItems.THORNSTEEL_AXE);
+        handheldItem(ModItems.THORNSTEEL_SHOVEL);
+        handheldItem(ModItems.THORNSTEEL_HOE);
+    }
+
+
+    private ItemModelBuilder handheldItem(RegistryObject<Item> item){
+        return withExistingParent(item.getId().getPath(),
+                new ResourceLocation("item/handheld")).texture("layer0",
+                new ResourceLocation(ElementalRealms.MOD_ID, "item/" + item.getId().getPath()));
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item){
