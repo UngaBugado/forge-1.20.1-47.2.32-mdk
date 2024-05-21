@@ -15,7 +15,7 @@ import java.util.List;
 public class ModToolTiers
 {
     public static final Tier THORNSTEEL = TierSortingRegistry.registerTier(
-            new ForgeTier(3,1830, 8.5f, 3.5f,12,
+            new ForgeTier(3,1830, 8.5f, 1f,12,
                     ModTags.Blocks.NEEDS_THORNSTEEL_TOOL, () -> Ingredient.of(ModItems.THORNSTEEL_INGOT.get())),
             new ResourceLocation(ElementalRealms.MOD_ID, "thornsteel_ingot"), List.of(Tiers.DIAMOND), List.of());
 }

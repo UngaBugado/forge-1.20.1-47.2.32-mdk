@@ -49,6 +49,42 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(ModItems.THORNSTEEL_INGOT.get()), has(ModItems.THORNSTEEL_INGOT.get()))
                 .save(pWriter);
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.THORNSTEEL_SHOVEL.get())
+                .pattern("T")
+                .pattern("S")
+                .pattern("S")
+                .define('T', ModItems.THORNSTEEL_INGOT.get())
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(ModItems.THORNSTEEL_INGOT.get()), has(ModItems.THORNSTEEL_INGOT.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.THORNSTEEL_AXE.get())
+                .pattern("TT")
+                .pattern("ST")
+                .pattern("S ")
+                .define('T', ModItems.THORNSTEEL_INGOT.get())
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(ModItems.THORNSTEEL_INGOT.get()), has(ModItems.THORNSTEEL_INGOT.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.THORNSTEEL_PICKAXE.get())
+                .pattern("TTT")
+                .pattern(" S ")
+                .pattern(" S ")
+                .define('T', ModItems.THORNSTEEL_INGOT.get())
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(ModItems.THORNSTEEL_INGOT.get()), has(ModItems.THORNSTEEL_INGOT.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.THORNSTEEL_HOE.get())
+                .pattern("TT")
+                .pattern(" S")
+                .pattern(" S")
+                .define('T', ModItems.THORNSTEEL_INGOT.get())
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(ModItems.THORNSTEEL_INGOT.get()), has(ModItems.THORNSTEEL_INGOT.get()))
+                .save(pWriter);
+
 
 
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.THORNSTEEL_INGOT.get(), 9)

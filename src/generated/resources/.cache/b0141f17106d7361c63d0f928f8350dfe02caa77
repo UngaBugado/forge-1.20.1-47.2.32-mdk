@@ -1,10 +1,14 @@
-// 1.20.1	2024-05-19T18:10:03.9596394	Item Models: elementalrealms
+// 1.20.1	2024-05-21T16:19:49.373432	Item Models: elementalrealms
 28588f6eebf9d35991d9b0fbf273fe0540b7ab7a assets/elementalrealms/models/item/amberite.json
 9422f1a20aaf76b57aae669edd499ddf6987fe64 assets/elementalrealms/models/item/emberoot.json
 9f0ff858d8a4df3333426b766d5b8527cd8b35c4 assets/elementalrealms/models/item/ore_finder.json
 dbd1949bec91124dff3509aba39d38339e799a1d assets/elementalrealms/models/item/thornsteel_axe.json
+6953ea3ea35f4e31e0c2c2c37e43c0fe56ca2cda assets/elementalrealms/models/item/thornsteel_boots.json
+52a202823fd03b656d37b1300fd81da35edbbf25 assets/elementalrealms/models/item/thornsteel_chestplate.json
+bc18ca210f84b10f0885bcda2ce606d09cd795ad assets/elementalrealms/models/item/thornsteel_helmet.json
 c96b91f99ed13ab0f3792dc960c471dbc10e011f assets/elementalrealms/models/item/thornsteel_hoe.json
 928f3dd5fb11537cec55d615aa72b9763b1df31d assets/elementalrealms/models/item/thornsteel_ingot.json
+d31d22ee0c530971e6153da52d997db9400b0b99 assets/elementalrealms/models/item/thornsteel_leggings.json
 60528d9256805c054bc6ff4ca89b5d5bb62967d6 assets/elementalrealms/models/item/thornsteel_pickaxe.json
 ea89036f279473d8a8c2edb13e1ad8c667bae3a9 assets/elementalrealms/models/item/thornsteel_scrap.json
 bd1efa58e62db85b5acbdefd762212c4d8fd0ab7 assets/elementalrealms/models/item/thornsteel_shovel.json

@@ -26,6 +26,11 @@ public class ModItemModelProvider extends ItemModelProvider
         simpleItem(ModItems.EMBEROOT);
         simpleItem(ModItems.ORE_FINDER);
 
+        simpleItem(ModItems.THORNSTEEL_HELMET);
+        simpleItem(ModItems.THORNSTEEL_CHESTPLATE);
+        simpleItem(ModItems.THORNSTEEL_LEGGINGS);
+        simpleItem(ModItems.THORNSTEEL_BOOTS);
+
         handheldItem(ModItems.THORNSTEEL_SWORD);
         handheldItem(ModItems.THORNSTEEL_PICKAXE);
         handheldItem(ModItems.THORNSTEEL_AXE);

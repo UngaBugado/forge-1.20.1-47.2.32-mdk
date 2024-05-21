@@ -40,21 +40,36 @@ public class ModItems
     public static final RegistryObject<Item>  GEOMANCER_STAFF = ITEMS.register("geomancer_staff",
             () -> new Item(new Item.Properties().stacksTo(1)));
 
+
     //Thornsteel Sword
     public static final RegistryObject<Item>  THORNSTEEL_SWORD = ITEMS.register("thornsteel_sword",
-            () -> new PickaxeItem(ModToolTiers.THORNSTEEL, 9, 2.6f, new Item.Properties()));
+            () -> new SwordItem(ModToolTiers.THORNSTEEL, 5,-2.2f, new Item.Properties()));
     //Thornsteel Pickaxe
     public static final RegistryObject<Item>  THORNSTEEL_PICKAXE = ITEMS.register("thornsteel_pickaxe",
-            () -> new PickaxeItem(ModToolTiers.THORNSTEEL, 5, 2, new Item.Properties()));
+            () -> new PickaxeItem(ModToolTiers.THORNSTEEL, 3, -2.6F, new Item.Properties()));
     //Thornsteel Axe
     public static final RegistryObject<Item>  THORNSTEEL_AXE = ITEMS.register("thornsteel_axe",
-            () -> new AxeItem(ModToolTiers.THORNSTEEL, 11, 2.6f, new Item.Properties()));
+            () -> new AxeItem(ModToolTiers.THORNSTEEL, 7,  -3.2f, new Item.Properties()));
     //Thornsteel Shovel
     public static final RegistryObject<Item>  THORNSTEEL_SHOVEL = ITEMS.register("thornsteel_shovel",
-            () -> new ShovelItem(ModToolTiers.THORNSTEEL, 5, 2.6f, new Item.Properties()));
+            () -> new ShovelItem(ModToolTiers.THORNSTEEL, 3, -3.0f, new Item.Properties()));
     //Thornsteel Hoe
     public static final RegistryObject<Item>  THORNSTEEL_HOE = ITEMS.register("thornsteel_hoe",
-            () -> new HoeItem(ModToolTiers.THORNSTEEL, 5, 2, new Item.Properties()));
+            () -> new HoeItem(ModToolTiers.THORNSTEEL, 0, 0, new Item.Properties()));
+
+    //Thornsteel Helmet
+    public static final RegistryObject<Item>  THORNSTEEL_HELMET = ITEMS.register("thornsteel_helmet",
+            () -> new ArmorItem(ModArmorMaterials.THORNSTEEL, ArmorItem.Type.HELMET, new Item.Properties()));
+    //Thornsteel Chestplate
+    public static final RegistryObject<Item>  THORNSTEEL_CHESTPLATE = ITEMS.register("thornsteel_chestplate",
+            () -> new ArmorItem(ModArmorMaterials.THORNSTEEL, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+    //Thornsteel Leggings
+    public static final RegistryObject<Item>  THORNSTEEL_LEGGINGS = ITEMS.register("thornsteel_leggings",
+            () -> new ArmorItem(ModArmorMaterials.THORNSTEEL, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+    //Thornsteel Boots
+    public static final RegistryObject<Item>  THORNSTEEL_BOOTS = ITEMS.register("thornsteel_boots",
+            () -> new ArmorItem(ModArmorMaterials.THORNSTEEL, ArmorItem.Type.BOOTS, new Item.Properties()));
+
 
 
 
